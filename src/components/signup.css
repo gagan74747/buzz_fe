@@ -1,0 +1,32 @@
+@media only screen and (min-width: 770px) {
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 41px;
+  }
+
+  input::-webkit-datetime-edit {
+    position: relative;
+    /* right: px; */
+  }
+
+  input::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 5px;
+  }
+}
+@media only screen and (max-width: 755px) {
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 21px;
+  }
+
+  input::-webkit-datetime-edit {
+    position: relative;
+    /* right: px; */
+  }
+
+  input::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 10px;
+  }
+}

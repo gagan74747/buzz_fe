@@ -1,0 +1,16 @@
+export const apiUrl = 'http://localhost:3000/api';
+export const homeUrl = `${apiUrl}/home`;
+export const postFeedUrl = `${apiUrl}/feed`;
+export const commentUrl = `${apiUrl}/comments/`;
+export const feedUrl = `${apiUrl}/feed/`;
+export const flagFeedUrl = `${apiUrl}/feed/flag/`;
+export const likeFeedUrl = `${apiUrl}/feed/like/`;
+export const deletePostModeratorUrl = `${apiUrl}/deletepost/`;
+export const updateUserProfileUrl = `${apiUrl}/userprofile/update`;
+export const getUserProfileUrl = `${apiUrl}/userprofile`;
+export const forgotPasswordUrl = `${apiUrl}/forgotpassword`;
+export const forgotPasswordOtpGeneratorUrl = `${apiUrl}/forgotpassword/otpgenerator`;
+export const loginApiUrl = `${apiUrl}/login`;
+export const registerApiUrl = `${apiUrl}/register`;
+export const searchSuggestionUrl = `${apiUrl}/search/suggestions`;
+export const jsonDataUrl = 'https://pkgstore.datahub.io/core/world-cities/world-cities_json/data/5b3dd46ad10990bca47b04b4739a02ba/world-cities_json.json';
